@@ -1,6 +1,12 @@
 import { setWorldConstructor, World, IWorldOptions } from '@cucumber/cucumber';
 import * as messages from '@cucumber/messages';
-import { BrowserContext, Page, PlaywrightTestOptions, APIRequestContext } from '@playwright/test';
+import {
+  BrowserContext,
+  Page,
+  PlaywrightTestOptions,
+  APIRequestContext,
+  APIResponse,
+} from '@playwright/test';
 
 export interface CucumberWorldConstructorParams {
   parameters: { [key: string]: string };
@@ -16,6 +22,7 @@ export interface ICustomWorld extends World {
   startTime?: Date;
 
   server?: APIRequestContext;
+  serverResponse?: APIResponse;
 
   playwrightOptions?: PlaywrightTestOptions;
 }

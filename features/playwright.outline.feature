@@ -1,4 +1,4 @@
-@foo
+@ignore
 Feature: Playwright multi docs
 
 

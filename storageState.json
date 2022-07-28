@@ -1,0 +1,106 @@
+{
+  "cookies": [
+    {
+      "name": "m",
+      "value": "58daa204-876b-4295-8c52-923b363479c6f46e4c",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1693539312.439078,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "b58ad8a0-354b-41b4-9f77-9a3cbc093a1cdb3ae9",
+      "domain": ".joao-admin.testingirestify.com",
+      "path": "/",
+      "expires": 1690515312,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "cb6aeb12-20d2-49cd-bd26-e3c6d3ab1f54f7a333",
+      "domain": ".joao-admin.testingirestify.com",
+      "path": "/",
+      "expires": 1658981112,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "4ef02f96-1599-400a-9a2d-6148d465f95e",
+      "domain": "joao-testingirestify-com.auth.us-east-1.amazoncognito.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cognito",
+      "value": "\"H4sIAAAAAAAAAAHjABz/aYOm+NPu0mVikSy6R6+0JP8NJFl4zq6A9eGqFfwgbOzb4s/KtQ8/+I6GuCUEukg+hoObCmMkNEtiEkyxApvXnM9YdSctgAGrFq8RcNOmy6O15njxP2NvJp//8IcFrxYI64PaRptQaNiK6PuzXan3WQYDWSTof/WUBMBVH39xQT8xwyip0E831AxK+GVSYY40OPnzD2KWp/CeJi4HPt49lBkTMeHR/PXpbms86y7vymT5q1LfSk3ePFHzpRG5eMBOPDSCx8PvlgelAQtaUoYB0ZWXO4NeAUjg6nw5m0wo+bNA745909Be4wAAAA==.H4sIAAAAAAAAADv9Q+LufGG1/QXsCrt3thuIRcwX32P0upA3hu2lxzv3A/MA5XmsJSAAAAA=.4\"",
+      "domain": ".joao-testingirestify-com.auth.us-east-1.amazoncognito.com",
+      "path": "/",
+      "expires": 1658982911.806709,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://joao-admin.testingirestify.com",
+      "localStorage": [
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.8564af95-db4d-464e-af21-fcc3ae12977e.userData",
+          "value": "{\"UserAttributes\":[{\"Name\":\"sub\",\"Value\":\"8564af95-db4d-464e-af21-fcc3ae12977e\"},{\"Name\":\"email_verified\",\"Value\":\"false\"},{\"Name\":\"custom:user_id\",\"Value\":\"1\"},{\"Name\":\"email\",\"Value\":\"admin@testingirestify.com\"}],\"Username\":\"8564af95-db4d-464e-af21-fcc3ae12977e\"}"
+        },
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.8564af95-db4d-464e-af21-fcc3ae12977e.refreshToken",
+          "value": ""
+        },
+        {
+          "name": "amplify-redirected-from-hosted-ui",
+          "value": "true"
+        },
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.8564af95-db4d-464e-af21-fcc3ae12977e.accessToken",
+          "value": "eyJraWQiOiJBTXJ2Q2JHRG1EWUd6REpCUCtMTkUxdyt4Uys4dVBDSDFBMkxaMlJGQWNRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NTY0YWY5NS1kYjRkLTQ2NGUtYWYyMS1mY2MzYWUxMjk3N2UiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9kc3NTOW9jRVkiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIyOXNtdDhldW8yNTVhZmJoNzdhdjlnZ2JybSIsImV2ZW50X2lkIjoiYzc2NjI4YTUtNjI1NS00OGU5LTlhZjAtN2Q0NjE1MDE4MDlhIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImF1dGhfdGltZSI6MTY1ODk3OTMxMCwiZXhwIjoxNjU4OTgyOTEwLCJpYXQiOjE2NTg5NzkzMTEsImp0aSI6IjE4YTM4NDM3LWFhNzktNDY1Yi1iMmQ0LTdhYzE5YTZhZmJiMSIsInVzZXJuYW1lIjoiODU2NGFmOTUtZGI0ZC00NjRlLWFmMjEtZmNjM2FlMTI5NzdlIn0.Z7DRpJUR46ib2vP5UDYOfcVgcoXylXG9rbbfspp0QoW81taPXnu5NS4zPb8rAGfu_C_Djz8-PVtT9dHsaUkqfGKNJI_mV2z05ajQy5Mju4Gbaz4EfvPCjqgO8L1HMRR8hSaKIH6Ff7FZQusZWDzIqYWN_8UcHLQJ32AgE2M_sbBfooVbUNTrZCa7JTAYbIKklTiZT3mBU4qgNLJeDsQOIdK9M1ehJ_XRC9HpIQs_WappxdgFt6v_uOYGMTbDZBHqdkNAON7kKFq_Ylf2by5a_ekwq0xMs-tA2aq-YJfbXwmQWgbnC4pANKG1YIBQVbgxiATULoGhJPR-PQv5FfNv-g"
+        },
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.8564af95-db4d-464e-af21-fcc3ae12977e.clockDrift",
+          "value": "2"
+        },
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.8564af95-db4d-464e-af21-fcc3ae12977e.idToken",
+          "value": "eyJraWQiOiJ2K3lvMHQzb280bThBVTBUTW0wME5lY2tvVFcyMDlnWHhjK1ZQQUtuZHZFPSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoicGNuSVppVHgza21NR1NkVVVnS1YwZyIsInN1YiI6Ijg1NjRhZjk1LWRiNGQtNDY0ZS1hZjIxLWZjYzNhZTEyOTc3ZSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfZHNzUzlvY0VZIiwiY3VzdG9tOnVzZXJfaWQiOiIxIiwiY29nbml0bzp1c2VybmFtZSI6Ijg1NjRhZjk1LWRiNGQtNDY0ZS1hZjIxLWZjYzNhZTEyOTc3ZSIsImF1dGhvcml6YXRpb24iOiJleUpwWkNJNklqRWlMQ0oxYzJWeVZIbHdaU0k2SWxOVlVFVlNYMEZFVFVsT1NWTlVVa0ZVVDFJaUxDSndaWEp0YVhOemFXOXVjeUk2VzEwc0luSnZiR1Z6SWpwYlhTd2lZV04wYVhaaGRHVmtJanAwY25WbGZRPT0iLCJhdWQiOiIyOXNtdDhldW8yNTVhZmJoNzdhdjlnZ2JybSIsImV2ZW50X2lkIjoiYzc2NjI4YTUtNjI1NS00OGU5LTlhZjAtN2Q0NjE1MDE4MDlhIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NTg5NzkzMTAsImV4cCI6MTY1OTA2NTcxMCwiaWF0IjoxNjU4OTc5MzEwLCJqdGkiOiJkNWNmZDI4OS01ZWMwLTQwMzUtYTU5Yy02ZDZiOTI4NjFiZmQiLCJlbWFpbCI6ImFkbWluQHRlc3RpbmdpcmVzdGlmeS5jb20ifQ.Fp6XKN7YWjsCWtnog15PUFOnbCukV8fPGNxQYggZvV5vIm0eqyRCkwFs4zndUuepzrzjdmAM8UvBro4znpeQtY35Gyzo-9Y_h4qPu23LfZ1WXGDyhBkupNOxoTXlPR-KauvFniLn456n9RYtD4xHfkSAtbaOC65E5YapMH12xOR7pvPNHDusP1EOBuxhQMPAeRaSxkxAkCULUMAJogftUMiul3n_WG1ty37WjoDB_a27I0X6oWzh6SM9xldkyckZUinkdUKjIOEWw4gQzlS-YuYfY9WJcY3QRcYmVGppxui6UtRKOgTFFWVF-F-Xhm0P_NatETJM59duTjTcGKwdcA"
+        },
+        {
+          "name": "amplify-signin-with-hostedUI",
+          "value": "true"
+        },
+        {
+          "name": "CognitoIdentityServiceProvider.29smt8euo255afbh77av9ggbrm.LastAuthUser",
+          "value": "8564af95-db4d-464e-af21-fcc3ae12977e"
+        }
+      ]
+    },
+    {
+      "origin": "https://joao-testingirestify-com.auth.us-east-1.amazoncognito.com",
+      "localStorage": [
+        {
+          "name": "amznfbgid",
+          "value": "X56-0545010-6236745:1658979309"
+        },
+        {
+          "name": "Amazon.AWS.Cognito.ContextData.LS_UBID",
+          "value": "wzql7uu8iagzp3ij5a4k:1658979309825"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-@foo
+@ignore
 Feature: Playwright docs
 
   Background: Navigation
